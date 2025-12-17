@@ -1,6 +1,4 @@
 public class Main {
-    private static Object child1;
-
     public static void main (String[] args){
         //გამოიყენე მემკვიდრეობა. შექმენი მშობელი კლასი Person, სადაც იქნება ორი
         //ატრიბუტი name და age და მეთოდი printInfo(), რომელიც დაბეჭდავს სახელს და ასაკს.
