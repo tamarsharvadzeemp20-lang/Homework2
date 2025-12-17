@@ -10,7 +10,8 @@ public class Main {
         //დაბეჭდავს სტუდენტის სრულ ინფორმაციას (სახელი, ასაკი და კურსის სახელი).
         //ბოლოს კი main მეთოდში შექმენი Student კლასის ობიექტი, ყველა ატრიბუტს მიანიჭე
         //მნიშვნელობა და გამოიძახე ორივე მეთოდი printInfo() და printStudentInfo().
-        Student  student1 = new Student();
+
+        Student  student1 = new Student(); // გამოყენებული კლასების სახელები : Student; Person.
         student1.name = "თამარი";
         student1.age = 28;
         student1.courseName = "ავტომატიზაციის ტესტირება";
@@ -20,7 +21,7 @@ public class Main {
         //შექმენი Animal კლასის რომელიმე შვილი კლასი სადაც makeSound() მეთოდს
         //გაუკეთებ overriding -ს. ბოლოს main -ში შექმენი შვილი კლასის ობიექტი და
         //დარწმუნდი რომ ოვერრაიდინგი წარმატებით მუშაობს.
-       Dogs dog1 = new Dogs();
+       Dogs dog1 = new Dogs(); //გამოყენებული კლასები : Animal, Dog
        dog1.makeSound();
        //შექმენი int ტიპის მასივი მინიმუმ 6 ელემენტით, სადაც შეინახავ სტუდენტების ქულებს.
         //for ციკლით გადაუარე მასივის ყოველ ელემენტს და დაბეჭდე მხოლოდ ის ქულები,
@@ -37,7 +38,7 @@ public class Main {
         //აბსტრაქტული მეთოდები. ასევე შვილ კლასში შემოიტანეთ 3 ცვლადი, ერთი public,
         //ერთი default, ერთი private. შექმენით შვილი კლასის ობიექტი მეინში და და ამ private
         //ცვლადს მიწვდით public setter -ით.
-       ChildAbstract child1 = new ChildAbstract();
+       ChildAbstract child1 = new ChildAbstract(); // კლასები : ParentAbstract; ChildAbstract
        child1.CountryNotToVisit = "ავღანეთი";
        child1.CountryName = "იაპონია";
        child1.budget= 10000;
@@ -48,7 +49,7 @@ public class Main {
         //ინტერფეისში აღწერეთ მინიმუმ ერთი მეთოდი, რომლებსაც შემდეგ შვილ კლასში
         //გაუკეთებთ ოვერრაიდინგს. ბოლოს main -ში შექმენი შვილი კლასის ობიექტი და
         //დარწმუნდი რომ ოვერრაიდინგი წარმატებით მუშაობს.
-        foodPreferences food1 = new foodPreferences();
+        foodPreferences food1 = new foodPreferences(); // მშობლები : Parent1, Parent2,Parent3 , შივლი კლასი foodPreferences
         food1.printFood();
         food1.favFruit();
         food1.favVeggies();
@@ -60,7 +61,7 @@ public class Main {
         //არგუმენტად, for ციკლით გადაურბინოს მასივის ელემენტს და დაბეჭდოს ყოველი
         //მათგანი. შემდეგ შექმენით ამ კლასის ობიექტი, გამოიძახეთ ორივე მეთოდი, ერთს
         //გადაეცით int ტიპის მასივი არგუმენტად, მეორეს String ტიპის მასივი.
-        ClassForOverloading LastTask = new ClassForOverloading();
+        ClassForOverloading LastTask = new ClassForOverloading(); // გამოყენებული კლასის სახელი: ClassForOverloading
         int [] age = {28,30, 29,35};
         String[] names= {"Tamar","Mariam","Gvantsa","Qristine"};
         LastTask.studentsInfo(age);
